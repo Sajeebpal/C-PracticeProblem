@@ -499,11 +499,24 @@ int main(){
     // int num, revNum=0;
     // printf("Enter a number to get its reverse number = ");
     // scanf("%d", &num);
+    // int temp = num;
+
     // while(num){
     //     revNum = revNum*10 + num%10;
     //     num /=10;
     // }
-    // printf("Reverse num is = %d", revNum);
+    // printf("Reverse num is = %d\n", revNum);
+
+    // //checking the number if a palindrome number or not
+
+    // if(temp == revNum){
+    //     printf("%d is a palindrome number", temp);
+    // }
+    // else{
+    //     printf("%d is not a palindrome number", temp);
+    // }
+
+
 
 
 

@@ -13,10 +13,10 @@ int main(){
 
     // int num = -1;
     // int num2 = 2;
-    // float divide = (float) num / num2;
-    // printf("Result = %f", divide)
-    // 
-    // 
+    // float divide = (float)num / num2;
+    // float divide2 = 30/20;
+    // printf("Result = %.2f %.2f", divide, divide2);
+
     
     // bool isMarried = false;
     // printf("%d", isMarried);
@@ -24,32 +24,32 @@ int main(){
     // bool ageEnough = (10>18)? 1: 0;
     // printf("%d", ageEnough);
 
-    switch(4){
-        case 1:
-        printf("Saturday");
-        break;
+    // switch(4){
+    //     case 1:
+    //     printf("Saturday");
+    //     break;
 
-        case 2:
-        printf("Sunday");
-        break;
+    //     case 2:
+    //     printf("Sunday");
+    //     break;
 
-        case 3:
-        printf("Monday");
-        break;
+    //     case 3:
+    //     printf("Monday");
+    //     break;
 
-        case 4:
-        printf("Tuesday");
-        break;
+    //     case 4:
+    //     printf("Tuesday");
+    //     break;
 
-        case 5:
-        printf("Wednesday");
-        break;
+    //     case 5:
+    //     printf("Wednesday");
+    //     break;
 
-        case 6:
-        printf("TThursday");
-        break;
+    //     case 6:
+    //     printf("TThursday");
+    //     break;
 
-    }
+    // }
 
 
     return 0;
