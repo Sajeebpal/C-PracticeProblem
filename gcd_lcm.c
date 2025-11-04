@@ -34,7 +34,7 @@ int main(){
     //     printf("Please! Enter two positive integer");
     // }
 
-// Euclidean algorithm
+// Euclidean algorithm to find GCD and LCM
 
     // int a, b, rem, init_a, init_b;
     // printf("Enter two numbers to find GCD = ");
@@ -68,9 +68,9 @@ int main(){
     //     if(a==0 && b==0){
     //         printf("LCM is Undefined");
     //     } else{
-    //         printf("LCM is = 0");
+    //         printf("LCM is = 0");    // zero is  a multiple of any number 0/a = 0;
     //     }
-    // } 
+    // }
     // else{
     //     for (int i = b; ; i++){
     //         if(i%a == 0 && i%b == 0){
@@ -96,7 +96,7 @@ int main(){
     //         GCD = i;
     //     }
     // }
-    // printf("Not a GCD is = %d", GCD);
+    // printf("GCD is = %d", GCD);
 
 
 

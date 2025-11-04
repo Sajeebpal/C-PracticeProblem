@@ -84,43 +84,43 @@ int main(){
 
 // Write a program to convert decimal to binary number
 
-    int num, i = 0, binary[32];
-    printf("Enter a Integer Decimal number = ");
-    scanf("%d", &num);
-    int temp = num;
+    // int num, i = 0, binary[32];
+    // printf("Enter a Integer Decimal number = ");
+    // scanf("%d", &num);
+    // int temp = num;
 
-    if (num == 0){
-        printf("Binary of 0 is = 0");
-    } 
-    else{
-        while(num>0){
-            binary[i] = num % 2;
-            num = num / 2;
-            i++;
-        }
-        printf("Binary of %d is = ", temp);
+    // if (num == 0){
+    //     printf("Binary of 0 is = 0");
+    // } 
+    // else{
+    //     while(num>0){
+    //         binary[i] = num % 2;
+    //         num = num / 2;
+    //         i++;
+    //     }
+    //     printf("Binary of %d is = ", temp);
 
-        for (int j = i - 1; j >= 0; j--){
-            printf("%d", binary[j]);
-        }
-        printf("\n");
-    }
+    //     for (int j = i - 1; j >= 0; j--){
+    //         printf("%d", binary[j]);
+    //     }
+    //     printf("\n");
+    // }
 
 // Write a program to convert binary to decimal number
 
-    int numb, k=0, rem, sum = 0;
-    printf("Enter a binary number = ");
-    scanf("%d", &numb);
-    int temp2 = numb;
+    // int numb, k=0, rem, dec = 0;
+    // printf("Enter a binary number = ");
+    // scanf("%d", &numb);
+    // int temp2 = numb;
 
-    while(numb>0){
-        rem = numb % 10;
-        sum = sum + rem * (int)pow(2, k);
-        numb = numb / 10;
-        k++;
-    }
-    printf("Decimal of %d is = %d", temp2, sum);
-    printf("\n");
+    // while(numb>0){
+    //     rem = numb % 10;
+    //     dec = dec + rem * (int)pow(2, k);
+    //     numb = numb / 10;
+    //     k++;
+    // }
+    // printf("Decimal of %d is = %d", temp2, dec);
+    // printf("\n");
 
 
 
